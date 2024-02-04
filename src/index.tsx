@@ -24,6 +24,6 @@ const ImageToRgb = ImageToRgbModule
       }
     );
 
-export function multiply(a: number, b: number): Promise<number> {
-  return ImageToRgb.multiply(a, b);
+export function convertToRGB(uriString: string): Promise<number[]> {
+  return ImageToRgb.convertToRGB(uriString);
 }

@@ -19,6 +19,6 @@ const ImageToRgb = ImageToRgbModule
         },
       }
     );
-export function multiply(a, b) {
-  return ImageToRgb.multiply(a, b);
+export function convertToRGB(uri) {
+  return ImageToRgb.convertToRGB(uri);
 }
