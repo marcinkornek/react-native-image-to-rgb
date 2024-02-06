@@ -20,5 +20,7 @@ const ImageToRgb = ImageToRgbModule
       }
     );
 export function convertToRGB(uri) {
-  return ImageToRgb.convertToRGB(uri);
+  const uriString = Platform.OS === 'ios' ? uri.replace('file://', '') : uri;
+
+  return ImageToRgb.convertToRGB(uriString);
 }

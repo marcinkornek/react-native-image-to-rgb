@@ -24,6 +24,8 @@ const ImageToRgb = ImageToRgbModule
       }
     );
 
-export function convertToRGB(uriString: string): Promise<number[]> {
+export function convertToRGB(uri: string): Promise<number[]> {
+  const uriString = Platform.OS === 'ios' ? uri.replace('file://', '') : uri;
+
   return ImageToRgb.convertToRGB(uriString);
 }
