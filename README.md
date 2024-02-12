@@ -1,6 +1,6 @@
 # react-native-image-to-rgb
 
-library for converting images to rgb array buffers
+library for converting images to rgb array buffers. This may be useful eg. if you want to detect what's on the image using https://github.com/mrousavy/react-native-fast-tflite. Library accepts both local and remote URIs.
 
 ## Installation
 
@@ -11,11 +11,12 @@ npm install react-native-image-to-rgb
 ## Usage
 
 ```js
-import { multiply } from 'react-native-image-to-rgb';
+import { convertToRGB } from 'react-native-image-to-rgb';
 
 // ...
 
-const result = await multiply(3, 7);
+const result = await convertToRGB(imageUri);
+// result = [255, 254, 0, .....]
 ```
 
 ## Contributing
