@@ -37,7 +37,9 @@
   "keywords": [
     "react-native",
     "ios",
-    "android"
+    "android",
+    "rgb",
+    "image"
   ],
   "repository": {
     "type": "git",
