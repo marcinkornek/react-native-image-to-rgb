@@ -944,9 +944,6 @@ PODS:
   - React-Mapbuffer (0.73.3):
     - glog
     - React-debug
-  - react-native-blob-jsi-helper (0.3.1):
-    - React
-    - React-Core
   - react-native-image-picker (7.1.0):
     - glog
     - RCT-Folly (= 2022.05.16.00)
@@ -1178,7 +1175,6 @@ DEPENDENCIES:
   - React-jsinspector (from `../node_modules/react-native/ReactCommon/jsinspector-modern`)
   - React-logger (from `../node_modules/react-native/ReactCommon/logger`)
   - React-Mapbuffer (from `../node_modules/react-native/ReactCommon`)
-  - react-native-blob-jsi-helper (from `../node_modules/react-native-blob-jsi-helper`)
   - react-native-image-picker (from `../node_modules/react-native-image-picker`)
   - react-native-image-to-rgb (from `../..`)
   - React-nativeconfig (from `../node_modules/react-native/ReactCommon`)
@@ -1275,8 +1271,6 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/logger"
   React-Mapbuffer:
     :path: "../node_modules/react-native/ReactCommon"
-  react-native-blob-jsi-helper:
-    :path: "../node_modules/react-native-blob-jsi-helper"
   react-native-image-picker:
     :path: "../node_modules/react-native-image-picker"
   react-native-image-to-rgb:
@@ -1364,7 +1358,6 @@ SPEC CHECKSUMS:
   React-jsinspector: 6fad0fe14882fb6b1c32e5cc8a4bd3d33a8b6790
   React-logger: cb0dd15ac67b00e7b771ef15203edcb29d4a3f8e
   React-Mapbuffer: d59258be3b0d2280c6ba8964ab6e36ec69211871
-  react-native-blob-jsi-helper: 13c10135af4614dbc0712afba5960784cd44f043
   react-native-image-picker: 6c51359eca7a7df9f07e297218c25696eb9da976
   react-native-image-to-rgb: 85ecc3fa4458a614ceda3694b89d0832f5f40592
   React-nativeconfig: 4d3076dc3dc498ec49819e4e4225b55d3507f902
